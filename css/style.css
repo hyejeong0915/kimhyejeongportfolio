@@ -1226,3 +1226,30 @@ footer {
     padding: 20px;
   }
 }
+
+.skill-list span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-list i {
+  font-size: 18px;
+  color: var(--accent);
+}
+
+.skill-list span {
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--line);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: 0.25s;
+}
+
+.skill-list span:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  color: var(--accent);
+}
